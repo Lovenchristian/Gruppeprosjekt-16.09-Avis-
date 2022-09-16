@@ -3,8 +3,11 @@ body {
 }
 
 #nav-container {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
     overflow:hidden;
-    background-color: 'blue';
+    background-color: turquoise;
 }
 
 .nav-el {
