@@ -30,3 +30,18 @@ body {
     background-color:teal;
     color:white;
 }
+
+#main-container {
+    display:grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    padding: 10px;
+    width: 50vw;
+}
+
+.main-el {
+    background-color: turquoise;
+    border: 1px solid blue;
+    font-size: 3vw;
+
+}
