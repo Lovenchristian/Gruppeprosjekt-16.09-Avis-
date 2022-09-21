@@ -4,16 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Globale Nyheter</title>
+    <title>Finans</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="nav-container">
         <div class="nav-el"><a href="bakkaSportNyheter.html">Sport</a></div> 
         <div class="nav-el"><a href="bakkaLokalNyheter.html">Lokal</a></div>
-        <div class="nav-el"><a href="bakkaGlobalNyheter.html">Global</a></div>
-        <div class="nav-el"><a href="bakkaFinansNyheter.html">Finans</a></div>    
+        <div class="nav-el"><a href="bakkaGlobalNyheter.html">Global</a></div>  
+        <div class="nav-el"><a href="bakkaFinansNyheter.html">Finans</a></div>  
     </div>
+
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets</span></a> by TradingView</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {
+        "symbols": [
+        {
+            "proName": "FOREXCOM:SPXUSD",
+            "title": "S&P 500"
+        },
+        {
+            "proName": "FOREXCOM:NSXUSD",
+            "title": "US 100"
+        },
+        {
+            "proName": "FX_IDC:EURUSD",
+            "title": "EUR/USD"
+        },
+        {
+            "proName": "BITSTAMP:BTCUSD",
+            "title": "Bitcoin"
+        },
+        {
+            "proName": "BITSTAMP:ETHUSD",
+            "title": "Ethereum"
+        },
+        {
+            "description": "OSEBX",
+            "proName": "OSL:OSEBX"
+        },
+        {
+            "description": "Tesla",
+            "proName": "NASDAQ:TSLA"
+        }
+        ],
+        "showSymbolLogo": true,
+        "colorTheme": "light",
+        "isTransparent": false,
+        "displayMode": "adaptive",
+        "locale": "en"
+    }
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
 
     <div id="main-container">
         <div class="main-el">
@@ -83,6 +129,7 @@
         </div>
 </body>
 </html>
+
 
 
 
