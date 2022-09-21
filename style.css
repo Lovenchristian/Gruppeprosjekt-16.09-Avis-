@@ -6,6 +6,10 @@ h1 {
     font-size:2.5vw;
 }
 
+h6 {
+    font-size:.7vw;
+}
+
 #nav-container {
     display:flex;
     justify-content:space-between;
