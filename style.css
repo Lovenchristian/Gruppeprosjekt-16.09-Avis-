@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+#nav-container {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    overflow:hidden;
+    background-color: turquoise;
+}
+
+.nav-el {
+    float: left;
+    color: 'white';
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 2.5vw;
+    background-color:turquoise;
+}
+
+.nav-el:hover {
+    background-color:white;
+    cursor:pointer;
+    
+}
+
+.nav-el:active {
+    background-color:teal;
+    color:white;
+}
+
+#main-container {
+    display:grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    padding: 10px;
+    width: 50vw;
+}
+
+.main-el {
+    background-color: turquoise;
+    border: 1px solid blue;
+    font-size: 3vw;
+
+}
