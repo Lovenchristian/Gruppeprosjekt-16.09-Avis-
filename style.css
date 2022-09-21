@@ -83,3 +83,14 @@ body {
 a {
     text-decoration: none;
 }
+
+#forfatter {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: 500;
+}
+#sist_oppdatert {
+    font-size: large;
+    color: rgba(0, 0, 0, 0.425);
+}
