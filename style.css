@@ -37,17 +37,20 @@ h1 {
 
 #main-container {
     display:grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     background-color: white;
     padding: 10px;
-    width: 50vw;
+    width: 85vw;
+    margin:auto;
 }
 
 .main-el {
     background-color: turquoise;
     border: 1px solid blue;
     font-size: 3vw;
-    min-width:25vw;
+    min-width:18vw;
+    max-width:18vw;
+    margin: 1vw;
 }
 
 #right-container {
@@ -55,10 +58,6 @@ h1 {
     
 }
 
-<<<<<<< Updated upstream
-}
-=======
 #right-title {
     padding:10px;
 }
->>>>>>> Stashed changes
