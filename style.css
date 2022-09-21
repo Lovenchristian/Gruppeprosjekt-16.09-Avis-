@@ -2,6 +2,14 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-size:2.5vw;
+}
+
+h6 {
+    font-size:.7vw;
+}
+
 #nav-container {
     display:flex;
     justify-content:space-between;
@@ -33,15 +41,56 @@ body {
 
 #main-container {
     display:grid;
-    grid-template-columns: auto auto;
-    background-color: white;
+    grid-template-columns: auto auto auto auto;
+    background-color: transparent;
     padding: 10px;
-    width: 50vw;
+    width: 85vw;
+    margin:auto;
 }
 
 .main-el {
     background-color: turquoise;
     border: 1px solid blue;
     font-size: 3vw;
+    min-width:18vw;
+    max-width:18vw;
+    margin: 1vw;
+    overflow:hidden;
+}
 
+#right-container {
+    float:right;
+    
+}
+
+#right-title {
+    padding:10px;
+}
+
+img {
+    min-width: 18vw;
+    max-width: 18vw;
+}
+
+body {
+    background-color: #e5e5f7;
+    opacity: 1;
+    /* background-image:  repeating-linear-gradient(45deg, #444cf7 25%, transparent 25%, transparent 75%, #444cf7 75%, #444cf7), repeating-linear-gradient(45deg, #444cf7 25%, #e5e5f7 25%, #e5e5f7 75%, #444cf7 75%, #444cf7); */
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#forfatter {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: 500;
+}
+#sist_oppdatert {
+    font-size: large;
+    color: rgba(0, 0, 0, 0.425);
 }
