@@ -51,6 +51,7 @@ h1 {
     min-width:18vw;
     max-width:18vw;
     margin: 1vw;
+    overflow:hidden;
 }
 
 #right-container {
@@ -60,4 +61,9 @@ h1 {
 
 #right-title {
     padding:10px;
+}
+
+img {
+    min-width: 18vw;
+    max-width: 18vw;
 }
